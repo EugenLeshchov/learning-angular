@@ -9,7 +9,6 @@ import { HelloWorldListComponent } from './hello-world-list/hello-world-list.com
     declarations: [AppComponent, HelloWorldListComponent],
     bootstrap: [AppComponent]
 })
-
 export class AppModule {
 
 }
