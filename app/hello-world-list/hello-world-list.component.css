@@ -2,6 +2,6 @@
     cursor: pointer;
 }
 
-.list > li:hover {
+.list > li > span:hover {
     font-weight: bold;
 }

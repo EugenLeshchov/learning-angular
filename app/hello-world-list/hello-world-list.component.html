@@ -1,7 +1,8 @@
 <ul class="list">
-    <li *ngFor="let phrase of phraseList"
-        (click)="onSelect(phrase)">
-        {{phrase.value}}
+    <li *ngFor="let phrase of phraseList">
+        <span (click)="onSelect(phrase)">
+            {{phrase.value}}
+        </span>
     </li>
 </ul>
 

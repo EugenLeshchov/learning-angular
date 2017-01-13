@@ -10,7 +10,7 @@ const PHRASES: Phrase[] = [
 @Component({
     selector: "hello-world-list",
     templateUrl: "app/hello-world-list/hello-world-list.component.html",
-    styleUrls: ["app/hello-world-list/hello-world-lest.component.css"]
+    styleUrls: ["app/hello-world-list/hello-world-list.component.css"]
 })
 export class HelloWorldListComponent {
     phraseList: Phrase[] = PHRASES;
